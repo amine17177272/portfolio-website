@@ -1639,3 +1639,8 @@ ul {
     color: var(--main-color);
     font-weight: bold;
 }
+
+.footer:hover::after {
+  content: "❗ Have not been updated since June 2024";
+  color: red;
+  font-size: 20px;                       }
